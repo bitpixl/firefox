@@ -1,2 +1,1 @@
-.icloud.com>.*apple*.*
-.apple.com>.*apple*.*
+.icloud.com>.*apple*.* .apple.com>.*apple*.*
