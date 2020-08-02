@@ -1,0 +1,48 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+
+/* custom userChrome.css (bitpixl) */
+
+/* Address Bar - No Content Notification */
+#tracking-protection-icon-box {display: none !important;}
+
+/* remove scrollbars */
+:-moz-any(#content,#appcontent) browser{
+ margin-right:-14px!important;
+ overflow-y:scroll;
+ margin-bottom:-14px!important;
+ overflow-x:scroll;
+}
+
+/* remove dropdown button url-box */
+.autocomplete-history-dropmarker {display: none !important;}
+
+/* show tab close buttons on hover */
+.tabbrowser-tab .tab-close-button {display: none !important;}
+.tabbrowser-tab:hover .tab-close-button {display: block !important;}
+
+/* reduce wasted space on all toolbars */
+toolbarbutton {padding: 2px !important;}
+
+/* put text closer to icon on bookmarks toolbar */
+#personal-bookmarks .bookmark-item > .toolbarbutton-icon {
+ margin:0px !important;
+ padding:2px !important;
+}
+
+/* remove 'Search or enter address' text in url/awesome bar */
+.textbox-input::-moz-placeholder {color:transparent !important;}
+
+/* remove left and right tab scroll buttons */
+tabbrowser toolbarbutton[class^="scrollbutton"],
+#TabsToolbar toolbarbutton[class^="scrollbutton"]
+{display: none !important;}
+
+.bookmark-item[container],
+treechildren::-moz-tree-image(container) {fill: gold !important;}
+treechildren::-moz-tree-image(container, OrganizerQuery_BookmarksToolbar) {fill: black !important;}
+treechildren::-moz-tree-image(container, OrganizerQuery_BookmarksMenu) {fill: black !important;}
+treechildren::-moz-tree-image(container, OrganizerQuery_UnfiledBookmarks) {fill: black !important;}
+treechildren::-moz-tree-image(container, livemark) {fill: orange !important;}
+.bookmark-item[container][query],
+treechildren::-moz-tree-image(container, query) {fill: dimgray !important;}
+
