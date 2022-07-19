@@ -1,1 +1,1 @@
-.icloud.com>.*apple*.* .apple.com>.*apple*.*
+.apple.com>.*apple*.* .google*.*>.google*.* .google*.*>.gstatic.com .google*.*>.ytimg.com .icloud.com>.*apple*.*  www.instagram.com>instagram.*.fna.fbcdn.net .instagram.com>.cdninstagram.com .adobe.com>.adobelogin.com  login.microsoftonline.com>.sso.azurewebsites.net .sso.azurewebsites.net>.scm.azurewebsites.net  .bing.com>login.live.com .google*.*>.googleapis.com .facebook.com>.fbcdn.net .tiktok.com>.tiktokcdn.com
